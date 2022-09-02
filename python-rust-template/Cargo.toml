@@ -1,0 +1,11 @@
+[package]
+name = "package-name"
+version = "0.1.0"
+edition = "2021"
+authors = [ "Knut Magnus Aasrud <km@aasrud.com>" ]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.17.1", features = ["extension-module"] }

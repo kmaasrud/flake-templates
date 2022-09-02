@@ -12,6 +12,11 @@
         path = ./rust-template;
         description = "Simple Rust application";
       };
+
+      python-rust = {
+        path = ./python-rust-template;
+        description = "Rust and Python application";
+      };
     };
   };
 }
